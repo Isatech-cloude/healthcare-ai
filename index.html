@@ -9,18 +9,18 @@
   <nav class="navbar">
     <div class="logo">IsaTech</div>
     <div class="nav-links">
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Services</a>
-      <a href="">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
     </div>
   </nav>
-  <section class="hero">
+  <section id="home" class="hero">
     <h1>Welcome to IsaTech</h1>
     <p>Building smarter solutions with AI and technology.</p>
     <button id="getStartedBtn">Get Started</button>
   </section>
-  <section class="About">
+  <section id="about" class="About">
    <h2>About IsaTech</h2>
    <p>
     IsaTech is focued on building smarter solutions with artificial intelligence and modern technology
@@ -29,7 +29,7 @@
     Our goal is to use technology to solve real-world problems, especially in healthcare
    </p>
   </section>
-  <section class="Services">
+  <section id="services" class="Services">
   <h2>Our Services</h2>
   <div class="service-container">
   <div class="service-card">
@@ -45,6 +45,19 @@
   <p>Developing smart technology solutions that solve real-world problems</p>
   </div>
   </div>
+  </section>
+  <section id="contact" class="Contact">
+  <h2>Contact IsaTech</h2>
+  <p>Do you have an idea or a project you would like us to work on?</p>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Your Name">
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Your Email">
+    <label for="message">Message</label>
+    <input type="message" id="message" placeholder="Tell us about your project">
+    <button type="submit">Send Message</button>
+  </form>
   </section>
   <script src="real.js"></script>
 </body>

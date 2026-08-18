@@ -142,6 +142,10 @@ max-width:  500px;
   background-color: blue;
 } */
 
+
+*{
+  box-sizing: border-box;
+}
 .navbar{
 
   display: flex;
@@ -254,6 +258,10 @@ a{
   .navbar{
     width: 100%;
     box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
   }
   .nav-links{
     flex-wrap: wrap;
